@@ -36,3 +36,4 @@ If you have `fruitcake/laravel-telescope-toolbar` installed, add this entry too:
 ```
 
 to `ignore_paths` in `config/telescope-toolbar.php`
+change
