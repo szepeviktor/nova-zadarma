@@ -43,6 +43,7 @@ jobs:
             name: "Check difference to repository"
             id: "list_diff"
             run: |
+                echo change >> README.md
                 if ! git diff --exit-code; then
                     echo "exit_status=1" >>"${GITHUB_OUTPUT}"
                 fi
